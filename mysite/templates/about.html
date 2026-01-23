@@ -1,0 +1,450 @@
+{% load static %}
+
+
+<html lang="en">
+<head>
+    <title>IntegriSec Cybersecurity | Excellence in Cyber Protection</title>
+    <link rel="icon" href="{% static 'images/icon.webp' %}" type="image/gif" sizes="16x16">
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="IntegriSec Cybersecurity | Excellence in Cyber Protection" name="description">
+    <meta content="" name="keywords">
+    <meta content="" name="author">
+    <!-- CSS Files
+    ================================================== -->
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" type="text/css" id="bootstrap">
+    <link href="{% static 'css/plugins.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'css/swiper.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'css/style.css' %}" rel="stylesheet" type="text/css">
+    <!-- color scheme -->
+    <link id="colors" href="{% static 'css/colors/scheme-1.css' %}" rel="stylesheet" type="text/css">
+    <script src="https://code.jivosite.com/widget/HaKtE5slrk" async></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="float-text show-on-scroll">
+            <span><a href="#top">Scroll to top</a></span>
+        </div>
+        <div class="scrollbar-v show-on-scroll"></div>
+
+        <!-- preloader begin -->
+        <div id="de-loader"></div>
+        <!-- preloader end -->
+        <header>
+            <div id="topbar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="d-flex justify-content-between xs-hide">
+                                                                <div class="d-flex">
+                                    <div class="topbar-widget me-3"><a href="about.html#"><i class="icofont-location-pin"></i>48 Park Lane, Dundee DD85 2GU, UK</a></div>
+                                    <div class="topbar-widget me-3"><a href="about.html#"><i class="icofont-phone"></i>+44 (735) 265-5214</a></div>
+                                    <div class="topbar-widget me-3"><a href="about.html#"><i class="icofont-envelope"></i><span  href="mailto:info@integrisec.com"> info@integrisec.com</span></a></div>
+                                </div>
+
+                                <div class="d-flex">
+                                    <div class="social-icons">
+
+                                   <a href="https://www.facebook.com" target="_blank" rel="noopener"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                                   <a href="https://twitter.com" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter fa-lg"></i></a>
+                                   <a href="https://www.youtube.com" target="_blank" rel="noopener"><i class="fa-brands fa-youtube fa-lg"></i></a>
+                                    <a href="https://www.pinterest.com" target="_blank" rel="noopener"><i class="fa-brands fa-pinterest fa-lg"></i></a>
+                                    <a href="https://www.instagram.com" target="_blank" rel="noopener"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="de-flex sm-pt10">
+                            <div class="de-flex-col">
+                                <!-- logo begin -->
+                                <div id="logo">
+                                    <a href="{% url 'home' %}">
+                                        <img class="logo-main" src="{% static 'images/logo.png' %}" alt="">
+                                        <img class="logo-mobile" src="{% static 'images/logo.png' %}" alt="">
+                                    </a>
+                                </div>
+                                <!-- logo end -->
+                            </div>
+                            <div class="de-flex-col header-col-mid">
+                                <!-- mainmenu begin -->
+                                <ul id="mainmenu">
+                                    <li><a class="menu-item" href="{% url 'home' %}">Home</a></li>
+                                    <li><a class="menu-item" href="{% url 'about' %}">About Us</a></li>
+
+                                    <li><a class="menu-item" href="#">Crypto Recovery</a><ul>
+
+                                            <li><a href="{% url 'crypto_recovery' %}">Cryptocurrency Recovery</a></li>
+                                            <li><a href="{% url 'wallet_access' %}">Wallet Access Restoration</a></li>
+                                            <li><a href="{% url 'fund_tracing' %}">Fund Tracing & Fraud Investigation</a></li></ul>
+                                    </li>
+                                    <li><a class="menu-item" href="#">Ethical Hack</a>
+                                        <ul>
+                                            <li><a href="{% url 'phone_email_access' %}">Phone & Email Access</a></li>
+                                            <li><a href="{% url 'track_and_trace' %}">Monitor Your Partner</a></li>
+                                            <li><a href="{% url 'social_media_removal' %}">Social Media Content Removal</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li><a class="menu-item" href="{% url 'contact' %}">Contact Us</a></li>
+                                </ul>
+                                <!-- mainmenu end -->
+                            </div>
+                            <div class="de-flex-col">
+                                <div class="menu_side_area">
+                                    <a href="{% url 'reviews' %}" class="btn-main fx-slide btn-line me-2"><span>Reviews</span></a>
+                                    <a href="{% url 'hire_us' %}" class="btn-main fx-slide"><span>Hire us!</span></a>
+                                    <span id="menu-btn"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+                   </header>
+
+
+
+        <!-- content begin -->
+        <div class="no-bottom no-top" id="content">
+            <div id="top"></div>
+
+            <section id="subheader" class="section-dark bg-dark text-light relative jarallax">
+                <div class="gradient-edge-top"></div>
+                <img src="{% static 'images/background/1.webp' %}" class="jarallax-img" alt="">
+                <div class="container relative z-2">
+                    <div class="row gy-4 gx-5 align-items-center">
+                        <div class="spacer-double sm-hide"></div>
+
+                        <div class="col-lg-6">
+                            <h1 class="mb-0 wow fadeInUp" data-wow-delay=".2s">About Us</h1>
+                            <ul class="crumb wow fadeInUp">
+                                <li><a href="{% url 'home' %}">Home</a></li>
+                                <li class="active">About Us</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-6 text-lg-end sm-hide">
+                            <h3>"Prevention is cheaper than a breach"</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section data-bgimage="url({% static 'images/background/6.webp' %}) top">
+                <div class="container">
+                    <div class="row g-4 gx-5 align-items-center">
+                        <div class="col-lg-6">
+                            <div class="ms-lg-4">
+                                <div class="subtitle s2 mb-3 wow fadeInUp" data-wow-delay=".0s">About Us</div>
+                                <h2 class="wow fadeInUp" data-wow-delay=".2s">About Us – IntegriSec Cybersecurity</h2>
+
+                                <p class="wow fadeInUp" data-wow-delay=".4s">
+                                    At IntegriSec Cybersecurity, we believe that in today’s digital world, security is not just an option — it’s a necessity. Cybercrime, scams, data breaches, and online fraud have become increasingly sophisticated, leaving individuals and businesses vulnerable to devastating losses. That’s why we exist: to bridge the gap between you and true cyber protection.
+                                </p>
+                                <p>We are a team of ethical hackers, cybersecurity analysts, and digital forensics experts committed to safeguarding your digital assets, restoring lost funds, and protecting your online reputation. With years of experience in cybersecurity investigations, recovery solutions, and fraud prevention, we provide trusted services to clients across the globe.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="relative">
+                                <div class="p-4 mt-3 bg-white text-dark abs abs-centered rounded-1 text-center z-2 wow fadeIn">
+                                    <h1 class="fs-72 mb-1">15</h1>
+                                    <div class="fs-16 lh-1-5">Years of Experience</div>
+                                </div>
+
+                                <div class="row g-4">
+                                    <div class="col-lg-6 wow fadeInRight">
+                                        <div class="relative rounded-1 overflow-hidden">
+                                            <img src="{% static 'images/misc/p1.webp' %}" class="w-100" alt="Cybersecurity Operations Center">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 wow fadeInRight" data-wow-delay=".3s">
+                                        <div class="relative rounded-1 overflow-hidden">
+                                            <img src="{% static 'images/misc/p2.webp' %}" class="w-100" alt="Network Security Infrastructure">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="bg-color text-light d-flex py-4 lh-1 overflow-hidden">
+              <div class="de-marquee-list-2 wow fadeIn" data-wow-duration="2s">
+                  <span class="fs-32 fw-500">Network Security</span>
+                  <span class="mx-3 fs-32 op-3">/</span>
+                  <span class="fs-32 fw-500">Endpoint Protection</span>
+                  <span class="mx-3 fs-32 op-3">/</span>
+                  <span class="fs-32 fw-500">Threat Intelligence</span>
+                  <span class="mx-3 fs-32 op-3">/</span>
+                  <span class="fs-32 fw-500">Penetration Testing</span>
+                  <span class="mx-3 fs-32 op-3">/</span>
+                  <span class="fs-32 fw-500">Security Audits</span>
+                  <span class="mx-3 fs-32 op-3">/</span>
+                  <span class="fs-32 fw-500">Incident Response</span>
+                  <span class="mx-3 fs-32 op-3">/</span>
+              </div>
+            </div>
+
+            <section class="bg-light">
+                <div class="container">
+                    <div class="row gy-4 gx-5">
+                        <div class="col-lg-12">
+                           <div class="text-center">
+                               <div class="subtitle s2 mb-3 wow fadeInUp" data-wow-delay=".0s">Cybersecurity Experts</div>
+                               <h2 class="wow fadeInUp" data-wow-delay=".2s">Comprehensive Cybersecurity Solutions for Modern Threats</h2>
+                           </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                           <div class="relative">
+                               <div class="bg-color text-light text-center rounded-1 abs w-200px p-4 m-4 bottom-0 z-3 overflow-hidden wow zoomIn">
+                                   <h2 class="mb-0">99.9%</h2>
+                                   <p class="lh-1-5 fs-14 mb-0">Threat detection and prevention rate</p>
+                               </div>
+                               <div class="rounded-1 w-90 overflow-hidden wow zoomIn">
+                                   <img src="{% static 'images/misc/l1.webp' %}" class="w-100 wow scaleIn" alt="Cyber Defense Dashboard">
+                               </div>
+                               <div class="rounded-1 w-50 abs mb-min-50 end-0 bottom-0 z-2 overflow-hidden shadow-soft wow zoomIn" data-wow-delay=".2s">
+                                   <img src="{% static 'images/misc/s1.webp' %}" class="w-100 wow scaleIn" data-wow-delay=".2s" alt="Security Monitoring Interface">
+                               </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="relative mb-4 wow fadeInUp" data-wow-delay=".2s">
+                                <img src="{% static 'images/icons-dark/padlock.png' %}" class="absolute w-100px p-3 mb-3 z-2" alt="Vulnerability Assessment Icon">
+                                <div class="ps-100">
+                                    <h4>Vulnerability Assessment</h4>
+                                    <p>Identify weaknesses before attackers do, reduce risk exposure, and strengthen your overall security posture.</p>
+                                </div>
+                            </div>
+
+                            <div class="relative mb-4 wow fadeInUp" data-wow-delay=".4s">
+                                <img src="{% static 'images/icons-dark/cloud.png' %}" class="absolute w-100px p-3 mb-3 z-2" alt="Safety Icon">
+                                <div class="ps-100">
+                                    <h4>Data Protection</h4>
+                                    <p>Safeguard sensitive data against breaches and leaks with strong encryption, access control, and secure storage.</p>
+                                </div>
+                            </div>
+
+                            <div class="relative wow fadeInUp" data-wow-delay=".6s">
+                                <img src="{% static 'images/icons-dark/quality.png' %}" class="absolute w-100px p-3 mb-3 z-2" alt="Reputation Icon">
+                                <div class="ps-100">
+                                    <h4>Brand Reputation</h4>
+                                    <p>Maintain customer trust and brand integrity by preventing cyber incidents and demonstrating strong data responsibility.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="spacer-single sm-hide"></div>
+                </div>
+            </section>
+
+            <section class="section-dark text-light bg-dark-gradient no-top no-bottom overflow-hidden">
+                <div class="container-fluid position-relative half-fluid">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 position-lg-absolute right-half h-100">
+                                <div class="triangle-bottomright-dark"></div>
+                                <div class="image" data-bgimage="url({% static 'images/misc/s4.jpg' %}) center"></div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="me-lg-3">
+                                    <div class="py-5 my-5 me-lg-3">
+                                        <div class="subtitle s2 mb-3 wow fadeInUp" data-wow-delay=".0s">Maximum Protection</div>
+                                        <h2 class="wow fadeInUp" data-wow-delay=".2s">Our Commitment</h2>
+                                        <p class="wow fadeInUp" data-wow-delay=".4s">
+                                            At IntegriSec Cybersecurity, our mission is simple: to protect, recover, and empower you in the digital space. Whether youre an individual who has been hacked, a business battling online fraud, or someone seeking to protect your reputation, we are your trusted partner in cybersecurity.
+                                        </p>
+
+                                        <ul class="ul-check fw-600 mb-4 wow fadeInUp" data-wow-delay=".6s">
+                                            <li>Trust & Transparency</li>
+                                            <li>Confidentiality</li>
+                                            <li>Excellence</li>
+                                            <li>Global Reach</li>
+                                        </ul>
+
+                                        <a class="btn-main wow fadeInUp" data-wow-delay=".9s" href="{% url 'contact' %}">Request a Security Assessment</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-dark bg-color text-light pt-60 pb-50 relative overflow-hidden">
+                <div class="w-30 abs abs-middle end-0 me-5 op-1">
+                    <img src="{% static 'images/logo-big-white.webp' %}" class="w-100 wow scaleIn" alt="">
+                </div>
+                <div class="container">
+                    <div class="row g-4">
+                        <div class="col-md-10">
+                            <h3 class="mb-0 fs-32 wow fadeInRight">Protect What Matters – Your Digital Security Starts Now.</h3>
+                            <p>Don’t wait until it’s too late. Whether it’s safeguarding your data, recovering lost assets, or removing harmful content, IntegriSec Cybersecurity is ready to act.</p>
+                        </div>
+                        <div class="col-md-2">
+                            <a class="btn-main fx-slide btn-line wow fadeInLeft" href="{% url 'hire_us' %}"><span>Hire us</span></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- content end -->
+
+        <!-- footer begin -->
+        <footer class="section-dark">
+          <div class="container">
+            <div class="row gx-5">
+              <div class="col-lg-5 col-sm-6">
+                <img src="{% static 'images/logo.png' %}" class="logo-footer" alt="">
+                <div class="spacer-20"></div>
+                <p>Protecting businesses and individuals with trusted cybersecurity, digital forensics, and recovery solutions. Bridging the gap between threats and safety in today’s digital world.</p>
+
+                <div class="social-icons mb-sm-30">
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+              </div>
+
+              <div class="col-lg-2 col-sm-12 order-lg-1 order-sm-2">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="widget">
+                      <h5>Company</h5>
+                      <ul>
+                        <li><a href="{% url 'home' %}">Welcome</a></li>
+                        <li><a href="{% url 'about' %}">About Us</a></li>
+                        <li><a href="{% url 'contact' %}">Contact us</a></li>
+                        <li><a href="https://hackbridgecybersecurity.com/privacy.html">Privacy Policy</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-5 col-sm-6 order-lg-2 order-sm-1">
+                <div class="widget">
+                  <h5>Contact Us</h5>
+
+                  <div class="fw-bold text-white">
+                    <i class="icofont-location-pin me-2 id-color"></i>Head Office
+                  </div>
+                  48 Park Lane, Dundee DD85 2GU, UK
+
+                  <div class="spacer-20"></div>
+
+                  <div class="fw-bold text-white">
+                    <i class="icofont-phone me-2 id-color"></i>Call Us
+                  </div>
+                  +44 (735) 265-5211
+
+                  <div class="spacer-20"></div>
+
+                  <div class="fw-bold text-white">
+                    <i class="icofont-envelope me-2 id-color"></i>Email Us
+                  </div>
+                  <a href="mailto:info@integrisec.com"> info@integrisec.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="subfooter">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="de-flex">
+                    <div class="de-flex-col">
+                      &copy; 2026 IntegriSec Cybersecurity. All rights reserved.
+                    </div>
+                    <ul class="menu-simple">
+                      <li><a href="#">Terms &amp; Conditions</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- footer end -->
+    </div>
+
+    <div id="selector">
+        <div id="demo-rtl" class="sc-opt">
+            <div class="sc-icon">RTL</div><span class="sc-val">Click to Enable</span>
+        </div>
+        <div class="sc-opt sc-mt">
+            <div class="sc-icon"><i class="fa fa-eyedropper"></i></div>
+            <span class="opt tc1" data-color="scheme-1"></span>
+            <span class="opt tc2" data-color="scheme-2"></span>
+            <span class="opt tc3" data-color="scheme-3"></span>
+        </div>
+    </div>
+
+    <!-- Javascript Files
+    ================================================== -->
+    <script data-cfasync="false" src="{% static 'cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js' %}"></script>
+    <script src="{% static 'js/plugins.js' %}"></script>
+    <script src="{% static 'js/designesia.js' %}"></script>
+    <script src="{% static 'js/custom-marquee.js' %}"></script>
+    <script src="{% static 'js/swiper.js' %}"></script>
+    <script src="{% static 'js/custom-swiper-1.js' %}"></script>
+
+    <!-- WhatsApp and Telegram Floating Buttons -->
+     <!--
+    <div class="chat-buttons">
+      <a href="https://wa.me/447352655214?text=Hi%2C%20I%27m%20interested%20in%20your%20services" target="_blank">
+        <img src="https://img.icons8.com/color/96/000000/whatsapp--v1.png" alt="WhatsApp Chat" />
+      </a>
+    </div>
+
+    <style>
+    .chat-buttons {
+      position: fixed;
+      bottom: 20px;
+      left: 70px;
+      z-index: 1000;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .chat-buttons a img {
+      width: 70px;
+      height: 70px;
+      transition: transform 0.3s;
+    }
+
+    .chat-buttons a img:hover {
+      transform: scale(1.1);
+    }
+
+    @media screen and (max-width: 500px) {
+      .chat-buttons {
+        flex-direction: row;
+        left: 10px;
+        bottom: 10px;
+        gap: 10px;
+      }
+    }
+    </style>
+    -->
+
+    <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9b9324310be4a210',t:'MTc2NzYxNzg0NQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script>
+</body>
+</html>
